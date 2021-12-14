@@ -1,0 +1,16 @@
+{
+    "name": "docker-node",
+    "version": "1.0.0",
+    "description": "Node utilizando Docker",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --legacy-watch index.js"
+    },
+    "author": "Matheus Soares",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.15"
+    }
+}
